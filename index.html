@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guía Aceites Esenciales doTERRA</title>
+  <link rel="stylesheet" href="aceites.css" />
+  <link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#a855f7" />
+<link rel="icon" sizes="192x192" href="icon-192.png">
+</head>
+<body>
+     <button id="toggleSidebar" class="sidebar-toggle">🧴 </button>
+
+<!-- Panel lateral -->
+<aside id="sidebar" class="sidebar collapsed">
+  <button id="closeSidebar" class="close-btn">✖</button>
+  <div class="sidebar-content">
+    <h2>🧴 Categorías de Uso (Singles)</h2>
+
+    <h3>1. Neat <br><small> (puede aplicarse en la piel sin diluir)</small></h3>
+    <p>Estos aceites tienen una química suficientemente suave para uso directo. Entre ellos se incluyen:</p>
+    <ul>
+      <li>Arborvitae, Basil, Blue Tansy, Cardamom, Cilantro, Clary Sage, Coriander, Cypress, Douglas Fir, Frankincense, Grapefruit, Green Mandarin, Helichrysum, Juniper Berry, Lavender, Lemon, Marjoram, Melissa, Myrrh, Patchouli, Pink Pepper, Roman Chamomile, Rosemary, Sandalwood, Siberian Fir, Spikenard, Tangerine, Tea Tree (Melaleuca), Turmeric, Vetiver, Wild Orange, Ylang Ylang, Yarrow Pom, además de toda la línea Touch® </li>
+    </ul> <p>Total estimado: ~35 aceites</p>
+
+    <h3>2. Dilute <small>(Siempre deben usarse con aceite portador)</small></h3>
+    <p>Necesitan dilución antes de aplicarse en la piel:</p>
+    <ul>
+      <li>Cassia, Clove, Cinnamon Bark, Thyme, Oregano</li>
+    </ul><p>Total: 5 aceites</p>
+
+    <h3>3. Sensitive <small>(dilución recomendada en pieles vulnerables o niños)</small></h3>
+    <p>Para evitar irritaciones, se aconseja diluir:</p>
+    <ul>
+      <li>Bergamot, Cedarwood, Black Pepper, Copaiba, Eucalyptus, Fennel, Geranium, Ginger, Lemongrass, Lime, Peppermint, Petitgrain, Spearmint, Wintergreen </li>
+    </ul><p>Total: 14 aceites</p>
+
+    <h3>4. Internal Use 🍋 <small>(Apto para consumo en cantidades controladas)</small></h3>
+    <p>Aprobados para uso interno, ya sea en cápsulas, bebidas o alimentos:</p>
+    <ul>
+      <li>Aceptados: Basil, Bergamot, Black Pepper, Cardamom, Cassia, Cilantro, Cinnamon Bark, Clary Sage, Clove, Copaiba, Coriander, Fennel, Frankincense, Geranium, Ginger, Grapefruit, Helichrysum, Juniper Berry, Lavender, Lemon, Lemongrass, Lime, Marjoram, Melaleuca (Tea Tree), Melissa, Myrrh, Oregano, Patchouli, Peppermint, Petitgrain, Roman Chamomile, Rosemary, Sandalwood (incluyendo hawaiano & siberiano), Ylang Ylang.</li>
+    </ul>
+    <p style="font-style: italic;">No recomendados: Arborvitae, Cedarwood, Cypress, Douglas Fir, Eucalyptus, Spikenard, Wintergreen.</p> <p>Total interno seguro: al menos 32 aceites</p>
+
+    <hr />
+    <h2>💧 Formas de Uso</h2>
+    <p><strong>🌬️ Aromático:</strong><br>Para difusor:  La mayoría puede utilizarse en difusores para apoyar ánimo, enfoque, relajación o purificación del aire (Cypress se usa para balance emocional, Eucalyptus para limpiar pulmones).</p>
+    <p><strong>🟢 Tópico:</strong> Para aplicar en la piel o cabello: según la categoría, se aplican directamente o en dilución en piel, músculos o cuero cabelludo (como Rosemary para el cabello, Arborvitae para limpieza o protección).</p>
+    <p><strong>🍋 Interno:</strong> Para ingerir: Varios se pueden ingerir en cápsulas o agregados a bebidas (Frankincense para bienestar celular, Fennel para digestión, OnGuard para apoyo inmune).</p>
+      <img src="icon-192.png" width="70" height="60">
+  </div>
+
+</aside>
+
+  <h1>🌿 Guía Interactiva de Aceites Esenciales doTERRA 🧠</h1>
+
+  <div class="tabs">
+    <button class="active" data-tab="uso">Por Uso</button>
+    <button data-tab="chakra">Por Chakra</button>
+    <button data-tab="emocion">Por Emoción</button>
+  </div>
+
+  <div class="search-section">
+    <input type="text" id="searchInput" placeholder="🔍 Buscar por uso, chakra, emoción..." />
+  </div>
+
+  <div id="tabContent">
+    <table id="uso" class="content-table"></table>
+    <table id="chakra" class="content-table" hidden></table>
+    <table id="emocion" class="content-table" hidden></table>
+  </div>
+
+  <section class="stepper">
+    <h2>💚 Modo Terapéutico Paso a Paso</h2>
+    <h3 id="stepTitle">Selecciona una fila en cualquier tabla</h3>
+    <ol id="stepsList"></ol>
+    <button id="clearBtn" class="hidden">Limpiar selección</button>
+  </section>
+
+  <script src="aceites.js"></script>
+    <script>
+    const sidebar = document.getElementById("sidebar");
+    const toggleSidebar = document.getElementById("toggleSidebar");
+    const closeSidebar = document.getElementById("closeSidebar");
+
+    toggleSidebar.onclick = () => {
+      sidebar.classList.toggle("collapsed");
+    };
+
+    closeSidebar.onclick = () => {
+      sidebar.classList.add("collapsed");
+    };
+  </script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(() => console.log("✅ Service Worker registrado"))
+      .catch(err => console.error("❌ Error al registrar SW:", err));
+  }
+</script>
+</body>
+</html>
