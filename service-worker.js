@@ -1,41 +1,31 @@
-const CACHE_NAME = "aceites-v1";
+const CACHE_NAME = 'guia-aceites-v1';
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/manifest.json",
-  "/style.css",
-  "/icon-192.png",
-  "/icon-512.png"
-  // Agrega aquí más archivos si quieres que estén disponibles offline
+  './',
+  './index.html',
+  './aceites.css',
+  './aceites.js',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
-// INSTALACIÓN
-self.addEventListener("install", event => {
+// Instalar SW y cachear archivos
+self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(urlsToCache);
-    })
+    caches.open(CACHE_NAME).then(cache => cache.addAll(urlsToCache))
   );
 });
 
-// ACTIVACIÓN
-self.addEventListener("activate", event => {
-  event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(
-        keys.map(key => {
-          if (key !== CACHE_NAME) return caches.delete(key);
-        })
-      )
-    )
-  );
+// Activar SW
+self.addEventListener('activate', event => {
+  console.log('🟣 Service Worker activo');
 });
 
-// FETCH (intercepta y responde con caché si hay)
-self.addEventListener("fetch", event => {
+// Interceptar peticiones y responder desde caché si es posible
+self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request).then(response => {
-      return response || fetch(event.request);
-    })
+    caches.match(event.request).then(response =>
+      response || fetch(event.request)
+    )
   );
 });
