@@ -1,8 +1,7 @@
 {
   "name": "Guía Aceites Esenciales",
-  "short_name": "Aceites",
-  "description": "Guía visual interactiva de aceites esenciales",
-  "start_url": "index.html",
+  "short_name": "Aceites TIE",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#a855f7",
