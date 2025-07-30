@@ -2,7 +2,7 @@
 // Datos completos de aceites esenciales
 const datos = {
   uso: [
-    { nombre: "Dormir/ <br>Insomnio",
+    { nombre: "Dormir/ Insomnio",
       aceites: ["Lavender", "Roman Chamomile", "Vetiver", "Cedarwood", "Serenity Blend"],
       descripcion: "🌬️Aromático en difusor (3–5 gotas) antes de dormir o 💚 Tópico en sienes y planta de pies (diluido).",
       pasos: [
@@ -11,7 +11,7 @@ const datos = {
         "Realizar respiración profunda y relajación consciente."
       ]
     },
-    { nombre: "Estrés / <br>Ansiedad",
+    { nombre: "Estrés / Ansiedad",
       aceites: ["Adaptiv", "Copaiba", "Ylang Ylang", "Frankincense", "Lavender", "Bergamot"],
       descripcion: "🌬️Inhalación directa o difusor. 💚 Aplicar diluido en muñecas o cuello.",
       pasos: [
