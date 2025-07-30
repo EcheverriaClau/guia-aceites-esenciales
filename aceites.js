@@ -2,7 +2,7 @@
 // Datos completos de aceites esenciales
 const datos = {
   uso: [
-    { nombre: "<b>Dormir/ <br>Insomnio",
+    { nombre: "Dormir/ <br>Insomnio",
       aceites: ["Lavender", "Roman Chamomile", "Vetiver", "Cedarwood", "Serenity Blend"],
       descripcion: "🌬️Aromático en difusor (3–5 gotas) antes de dormir o 💚 Tópico en sienes y planta de pies (diluido).",
       pasos: [
@@ -11,7 +11,7 @@ const datos = {
         "Realizar respiración profunda y relajación consciente."
       ]
     },
-    { nombre: "<b>Estrés / <br>Ansiedad",
+    { nombre: "Estrés / <br>Ansiedad",
       aceites: ["Adaptiv", "Copaiba", "Ylang Ylang", "Frankincense", "Lavender", "Bergamot"],
       descripcion: "🌬️Inhalación directa o difusor. 💚 Aplicar diluido en muñecas o cuello.",
       pasos: [
@@ -20,7 +20,7 @@ const datos = {
         "Practicar meditación guiada o mindfulness mientras se difunde."
       ]
     },
-    { nombre: "<b>Inmunidad",
+    { nombre: "Inmunidad",
       aceites: ["On Guard", "Lemon", "Frankincense"],
       descripcion: "🍋 1–2 gotas en cápsula vegetal o difusor. 💚 Aplicación tópica en planta de pies.",
       pasos: [
@@ -29,7 +29,7 @@ const datos = {
         "💚 Aplicar tópicamente en planta de pies y pecho."
       ]
     },
-    { nombre: "<b>Dolor muscular/ Inflamación",
+    { nombre: "Dolor muscular/ Inflamación",
       aceites: ["Deep Blue", "Peppermint", "Wintergreen", "Copaiba", "Frankincense", "Marjoram"],
       descripcion: "💚 Masaje Tópico en zona afectada, diluido en aceite base.",
       pasos: [
@@ -38,7 +38,7 @@ const datos = {
         "Repetir mañana y noche si es necesario."
       ]
     },
-    { nombre: "<b>Problemas digestivos",
+    { nombre: "Problemas digestivos",
       aceites: ["DigestZen", "Peppermint", "Fennel"],
       descripcion: "💚 Aplicación abdominal o 🍋 en cápsula vegetal (uso interno con guía profesional).",
       pasos: [
@@ -47,7 +47,7 @@ const datos = {
         "Tomar 1 gota de Fennel en agua tibia (opcional, consultar especialista)."
       ]
     },
-    { nombre: "<b>Falta de energía",
+    { nombre: "Falta de energía",
       aceites: ["Peppermint", "Wild Orange", "Citrus Bliss"],
       descripcion: "🌬️Inhalación directa o en difusor por la mañana. 💚 Aplicar diluido en nuca.",
       pasos: [
@@ -56,7 +56,7 @@ const datos = {
         "Realizar actividad física suave para activar la circulación."
       ]
     },
-    { nombre: "<b>Concentración / Estudio",
+    { nombre: "Concentración / Estudio",
       aceites: ["Peppermint", "Rosemary", "Frankincense"],
       descripcion: "🌬️ Difundir durante el estudio o 💚 Aplicar en sienes y nuca.",
       pasos: [
@@ -65,7 +65,7 @@ const datos = {
         "Hacer pausas cada 30 min para inhalar y relajar."
       ]
     },
-    { nombre: "<b>Meditación",
+    { nombre: "Meditación",
       aceites: ["Frankincense", "Sandalwood", "Myrrh"],
       descripcion: "🌬️ Difundir antes de la meditación o 💚 Aplicar en tercer ojo/corona.",
       pasos: [
@@ -74,7 +74,7 @@ const datos = {
         "Crear un ritual con respiración consciente."
       ]
     },
-    { nombre: "<b>Sistema respiratorio/ Congestión",
+    { nombre: "Sistema respiratorio/ Congestión",
       aceites: ["Air Blend", "Eucalyptus", "Peppermint", "Breathe Blend", "Cardamom", "Tea Tree"],
       descripcion: "🌬️Inhalación directa o en difusor. 💚 Tópico en pecho y espalda.",
       pasos: [
@@ -83,7 +83,7 @@ const datos = {
         "🌬️ Realizar vaporizaciones con agua caliente y Eucalyptus."
       ]
     },
-    { nombre: "<b>Desintoxicación / Detox",
+    { nombre: "Desintoxicación / Detox",
       aceites: ["Lemon", "Zendocrine", "Ginger"],
       descripcion: "🍋 Tomar en agua (si es apto) o 💚 Aplicar en abdomen e hígado.",
       pasos: [
@@ -92,7 +92,7 @@ const datos = {
         "Masajear el abdomen en círculos con Ginger diluido."
       ]
     },
-    { nombre: "<b>Cambios hormonales/ Ciclo",
+    { nombre: "Cambios hormonales/ Ciclo",
       aceites: ["Clary Calm", "Geranium", "Clary Sage", "Whisper Blend", "Ylang Ylang"],
       descripcion: "💚 Aplicar en abdomen, muñecas o 🌬️ Difundir según el momento del ciclo.",
       pasos: [
@@ -101,7 +101,7 @@ const datos = {
         "Masajear con Clary Sage durante el síndrome premenstrual."
       ]
     },
-    { nombre: "<b>Dolor de cabeza",
+    { nombre: "Dolor de cabeza",
       aceites: ["Peppermint", "Frankincense", "PastTense  Blend"],
       descripcion: "💚 Aplicar en sienes, nuca o 🌬️ inhalar directamente.",
       pasos: [
@@ -110,7 +110,7 @@ const datos = {
         "Descansar en ambiente oscuro y tranquilo."
       ]
     },
-    { nombre: "<b>Equilibrio emocional",
+    { nombre: "Equilibrio emocional",
       aceites: ["Balance", "Frankincense", "Bergamot"],
       descripcion: "💚 Aplicar en corazón, nuca y 🌬️ Difundir durante el día.",
       pasos: [
@@ -119,7 +119,7 @@ const datos = {
         "🌬️ Difundir Frankincense al final del día."
       ]
     },
-    { nombre: "<b>Autoestima / Confianza",
+    { nombre: "Autoestima / Confianza",
       aceites: ["Bergamot", "Cedarwood", "Wild Orange"],
       descripcion: "💚 Uso diario en afirmaciones positivas y rutinas de autocuidado.",
       pasos: [
@@ -128,7 +128,7 @@ const datos = {
         "Masajear el pecho con Cedarwood en la noche."
       ]
     },
-    { nombre: "<b>Sistema linfático",
+    { nombre: "Sistema linfático",
       aceites: ["Grapefruit", "Juniper Berry", "Cypress"],
       descripcion: "💚 Masajes ascendentes y drenaje linfático con aceite portador.",
       pasos: [
@@ -137,7 +137,7 @@ const datos = {
         "Inhalar Juniper Berry por la mañana."
       ]
     },
-    { nombre: "<b>Afrodisíaco / Libido",
+    { nombre: "Afrodisíaco / Libido",
       aceites: ["Ylang Ylang", "Patchouli", "Sandalwood"],
       descripcion: "🌬️ Difundir en la habitación o 💚 Aplicar en cuello, muñecas y pecho.",
       pasos: [
@@ -146,7 +146,7 @@ const datos = {
         "Crear un ambiente relajante con Patchouli."
       ]
     },
-    { nombre: "<b>Circulación",
+    { nombre: "Circulación",
       aceites: ["Cypress", "Marjoram", "Black Pepper"],
       descripcion: "💚 Masaje en piernas, pies y manos. 🌬️Inhalación estimulante.",
       pasos: [
@@ -155,7 +155,7 @@ const datos = {
         "Hacer caminatas breves después de aplicación."
       ]
     },
-    { nombre: "<b>Protección energética",
+    { nombre: "Protección energética",
       aceites: ["Frankincense", "White Fir", "Melissa"],
       descripcion: "🌬️ Rituales de limpieza, visualización y 💚 aplicación tópica protectora.",
       pasos: [
@@ -164,7 +164,7 @@ const datos = {
         "Inhalar Frankincense al cerrar círculos energéticos."
       ]
     },
-    { nombre: "<b>Tristeza profunda / Duelo",
+    { nombre: "Tristeza profunda / Duelo",
       aceites: ["Console", "Frankincense", "Rose"],
       descripcion: "🌬️Inhalación diaria, 💚 aplicación en corazón y acompañamiento emocional.",
       pasos: [
@@ -173,7 +173,7 @@ const datos = {
         "Usar Frankincense en rituales de cierre emocional."
       ]
     },
-    { nombre: "<b>Creatividad / Inspiración",
+    { nombre: "Creatividad / Inspiración",
       aceites: ["Citrus Bliss", "InTune", "Lime"],
       descripcion: "🌬️ Difundir al iniciar proyectos o escribir. 💚 Aplicar en tercer ojo.",
       pasos: [
@@ -182,7 +182,7 @@ const datos = {
         "🌬️ Difundir Lime en sesiones creativas."
       ]
     },
-    { nombre: "<b>Concentración/ Memoria",
+    { nombre: "Concentración/ Memoria",
       aceites: ["Peppermint", "Rosemary", "InTune Blend", "Basil", "Lemon"],
       descripcion: "🌬️Inhalación diaria, 💚 aplicación en muñecas y respiración consciente.",
       pasos: [
@@ -191,14 +191,14 @@ const datos = {
         "Inhalar InTune Blend profundamente."
       ]
     },
-    { nombre: "<b>Ira / Irritabilidad",
+    { nombre: "Ira / Irritabilidad",
       aceites: ["Frankincense", "Balance Blend", "Bergamot", "Patchouli"],
       descripcion: "🌬️Inhalación diaria, 💚aplicación en muñecas y respiración consciente.",
       pasos: [
         "Inhalar Lavender profundamente.",
       ]
     },
-    { nombre: "<b>Alergias estacionales",
+    { nombre: "Alergias estacionales",
       aceites: ["Lavender + Lemon + Peppermint (Trío base)", "Breathe Blend"],
       descripcion: "Combinación natural para aliviar síntomas de alergia, despejar vías respiratorias y reducir inflamación 🌬️.",
       pasos: [
@@ -208,7 +208,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Sistema inmune",
+      nombre: "Sistema inmune",
       aceites: ["On Guard Blend", "Orégano + Frankincense + Lemon + Tea Tree (Melaleuca)"],
       descripcion: "Apoyo inmunológico para prevención o durante infecciones leves. Fortalece defensas naturales 💚.",
       pasos: [
@@ -218,7 +218,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Digestión / Náuseas",
+      nombre: "Digestión / Náuseas",
       aceites: ["DigestZen Blend", "Ginger", "Fennel", "Peppermint", "Coriander"],
       descripcion: "💚 Alivio digestivo, náuseas, hinchazón y malestares estomacales🍋. Equilibra y calma.",
       pasos: [
@@ -228,7 +228,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Gripe / Resfriado común",
+      nombre: "Gripe / Resfriado común",
       aceites: ["On Guard Blend", "Oregano", "Lemon", "Eucalyptus", "Frankincense"],
       descripcion: " 🌬️ Apoyo respiratorio y antiviral durante gripes, resfriados o congestión.",
       pasos: [
@@ -238,7 +238,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Corazón abierto / amor propio",
+      nombre: "Corazón abierto / amor propio",
       aceites: ["Rose", "Geranium", "Jasmine", "Ylang Ylang"],
       descripcion: "💚 Apoyo emocional para fomentar el amor propio, aceptación y conexión interna.",
       pasos: [
@@ -248,7 +248,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Energía / Vitalidad",
+      nombre: "Energía / Vitalidad",
       aceites: ["Peppermint", "Wild Orange", "Citrus Bliss Blend", "Grapefruit"],
       descripcion: "💚 Revitalización física y mental. Aumenta motivación y estado de alerta 🌬️.",
       pasos: [
@@ -258,7 +258,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Limpieza / Purificación",
+      nombre: "Limpieza / Purificación",
       aceites: ["Lemon", "Tea Tree", "Purify Blend", "Eucalyptus"],
       descripcion: "🌬️ Desintoxicación ambiental y energética. Limpieza del aire y espacios.",
       pasos: [
@@ -268,7 +268,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Repelente de insectos",
+      nombre: "Repelente de insectos",
       aceites: ["TerraShield Blend", "Lemongrass", "Cedarwood", "Patchouli"],
       descripcion: "💚 Protección natural contra insectos sin químicos tóxicos.",
       pasos: [
@@ -278,7 +278,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Cuidado de la piel",
+      nombre: "Cuidado de la piel",
       aceites: ["Lavender", "Frankincense", "Tea Tree", "Helichrysum", "Rose"],
       descripcion: "💚 Regeneración, cicatrización y equilibrio de la piel. Ideal para rostro y zonas sensibles.",
       pasos: [
@@ -288,7 +288,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Depresión leve / ánimo bajo",
+      nombre: "Depresión leve / ánimo bajo",
       aceites: ["Citrus Bliss", "Wild Orange", "Bergamot", "Elevation Blend"],
       descripcion: "💚 Elevación emocional, claridad mental y apertura al gozo diario.",
       pasos: [
@@ -298,7 +298,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>🦷 Salud bucal",
+      nombre: "Salud bucal",
       aceites: ["Clove", "On Guard", "Myrrh", "Peppermint"],
       descripcion: "Cuidado natural de encías, dientes y aliento. Antiséptico y fortalecedor 💚.",
       pasos: [
@@ -310,7 +310,7 @@ const datos = {
 ],
     chakra: [
     {
-      nombre: "<b>🔴 Chakra Raíz (Muladhara)",
+      nombre: "🔴 Chakra Raíz (Muladhara)",
       aceites: ["Vetiver", "Cedarwood", "Patchouli"],
       descripcion: "Conexión a la tierra, seguridad, estabilidad. Frecuencia: ~396 Hz. Color: Rojo.",
       pasos: [
@@ -320,7 +320,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>🟠 Chakra Sacro (Svadhisthana)",
+      nombre: "🟠 Chakra Sacro (Svadhisthana)",
       aceites: ["Wild Orange", "Ylang Ylang", "Clary Sage"],
       descripcion: "Creatividad, sensualidad, fluidez. Frecuencia: ~417 Hz. Color: Naranja.",
       pasos: [
@@ -330,7 +330,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>🟡 Chakra Plexo Solar (Manipura)",
+      nombre: "🟡 Chakra Plexo Solar (Manipura)",
       aceites: ["Ginger", "Lemon", "Cinnamon"],
       descripcion: "Voluntad, autoestima, acción. Frecuencia: ~528 Hz. Color: Amarillo.",
       pasos: [
@@ -340,7 +340,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>🟢 Chakra Corazón (Anahata)",
+      nombre: "🟢 Chakra Corazón (Anahata)",
       aceites: ["Rose", "Bergamot", "Geranium"],
       descripcion: "Amor, compasión, perdón. Frecuencia: ~639 Hz. Color: Verde/Rosa.",
       pasos: [
@@ -350,7 +350,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>🔵 Chakra Garganta (Vishuddha)",
+      nombre: "🔵 Chakra Garganta (Vishuddha)",
       aceites: ["Spearmint", "Lavender", "Roman Chamomile"],
       descripcion: "Comunicación, verdad, expresión. Frecuencia: ~741 Hz. Color: Azul claro.",
       pasos: [
@@ -360,7 +360,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>🟣 Chakra Tercer Ojo (Ajna)",
+      nombre: "🟣 Chakra Tercer Ojo (Ajna)",
       aceites: ["Frankincense", "Clary Sage", "Rosemary"],
       descripcion: "Intuición, visión interna, claridad. Frecuencia: ~852 Hz. Color: Índigo.",
       pasos: [
@@ -370,7 +370,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>⚪ Chakra Corona (Sahasrara)",
+      nombre: "⚪ Chakra Corona (Sahasrara)",
       aceites: ["Sandalwood", "Frankincense", "Lavender"],
       descripcion: "Conexión espiritual, sabiduría, conciencia. Frecuencia: ~963 Hz. Color: Violeta/Dorado.",
       pasos: [
@@ -382,7 +382,7 @@ const datos = {
   ],
  emocion: [
     {
-      nombre: "<b>Miedo",
+      nombre: "Miedo",
       aceites: ["Copaiba", "Frankincense", "Juniper Berry"],
       descripcion: "El miedo bloquea el movimiento. Estos aceites ayudan a recuperar el centro, protegerse y actuar con confianza.",
       pasos: [
@@ -392,7 +392,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Tristeza",
+      nombre: "Tristeza",
       aceites: ["Console", "Rose", "Melissa"],
       descripcion: "La tristeza profunda puede ser sostenida con aceites que nutren el alma y dan consuelo en los procesos de duelo.",
       pasos: [
@@ -402,7 +402,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Ansiedad",
+      nombre: "Ansiedad",
       aceites: ["Adaptiv", "Lavender", "Ylang Ylang"],
       descripcion: "Estados de tensión o agitación que se calman con aromas dulces, florales o equilibrantes.",
       pasos: [
@@ -412,7 +412,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Enojo / Ira",
+      nombre: "Enojo / Ira",
       aceites: ["Bergamot", "Roman Chamomile", "Geranium"],
       descripcion: "Cuando el enojo no se expresa de forma saludable, estos aceites ayudan a equilibrar la energía y canalizarla con amor.",
       pasos: [
@@ -422,7 +422,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Falta de propósito",
+      nombre: "Falta de propósito",
       aceites: ["Frankincense", "Sandalwood", "Myrrh"],
       descripcion: "Para reconectar con el sentido profundo de vida, activar la espiritualidad y la inspiración interior.",
       pasos: [
@@ -432,7 +432,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Falta de motivación",
+      nombre: "Falta de motivación",
       aceites: ["Wild Orange", "Peppermint", "Motivate"],
       descripcion: "Para retomar el impulso creativo y la fuerza de voluntad.",
       pasos: [
@@ -442,7 +442,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Culpa",
+      nombre: "Culpa",
       aceites: ["Forgive", "Lime", "Lavender"],
       descripcion: "La culpa puede transformarse en aprendizaje cuando se acompaña con compasión y perdón.",
       pasos: [
@@ -452,7 +452,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Inseguridad",
+      nombre: "Inseguridad",
       aceites: ["Cedarwood", "Vetiver", "Balance"],
       descripcion: "Estos aceites aportan firmeza interior, seguridad y presencia.",
       pasos: [
@@ -462,7 +462,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Falta de concentración",
+      nombre: "Falta de concentración",
       aceites: ["InTune", "Rosemary", "Peppermint"],
       descripcion: "Favorecen la claridad mental y el enfoque sostenido.",
       pasos: [
@@ -472,7 +472,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Duelo / Pérdida",
+      nombre: "Duelo / Pérdida",
       aceites: ["Console", "Rose", "Spikenard"],
       descripcion: "Para acompañar procesos de duelo con sostén emocional y espiritual.",
       pasos: [
@@ -482,7 +482,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Alegría bloqueada",
+      nombre: "Alegría bloqueada",
       aceites: ["Citrus Bliss", "Tangerine", "Lemongrass"],
       descripcion: "Aceites que ayudan a liberar emociones estancadas y recuperar el entusiasmo.",
       pasos: [
@@ -492,7 +492,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Autocrítica",
+      nombre: "Autocrítica",
       aceites: ["Bergamot", "Lavender", "Forgive"],
       descripcion: "Facilitan una mirada más compasiva hacia uno mismo.",
       pasos: [
@@ -502,7 +502,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Desconexión espiritual",
+      nombre: "Desconexión espiritual",
       aceites: ["Frankincense", "Rose", "Melissa"],
       descripcion: "Reconectan con lo sagrado, abren el corazón y elevan la conciencia.",
       pasos: [
@@ -512,7 +512,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Celos / Envidia",
+      nombre: "Celos / Envidia",
       aceites: ["Geranium", "Coriander", "Lime"],
       descripcion: "Transforman emociones de comparación en gratitud y autenticidad.",
       pasos: [
@@ -522,7 +522,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Desesperanza",
+      nombre: "Desesperanza",
       aceites: ["Elevation", "Wild Orange", "Frankincense"],
       descripcion: "Ayudan a recuperar la visión y la esperanza interior.",
       pasos: [
@@ -532,7 +532,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Vergüenza",
+      nombre: "Vergüenza",
       aceites: ["Bergamot", "Geranium", "Frankincense"],
       descripcion: "La vergüenza puede aislar. Estos aceites reconectan con el valor interno y la aceptación personal.",
       pasos: [
@@ -542,7 +542,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Soledad / Desconexión",
+      nombre: "Soledad / Desconexión",
       aceites: ["Rose", "Balance", "Cedarwood"],
       descripcion: "Ayudan a sentirse acompañado, sostenido y parte de algo mayor.",
       pasos: [
@@ -552,7 +552,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Impaciencia",
+      nombre: "Impaciencia",
       aceites: ["Roman Chamomile", "Lavender", "Vetiver"],
       descripcion: "Aromas calmantes que devuelven al presente y suavizan la urgencia mental.",
       pasos: [
@@ -562,7 +562,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Apego / Dependencia emocional",
+      nombre: "Apego / Dependencia emocional",
       aceites: ["Coriander", "Lime", "Geranium"],
       descripcion: "Facilitan el desapego amoroso y la autonomía afectiva.",
       pasos: [
@@ -572,7 +572,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Alegría desbordada / Euforia",
+      nombre: "Alegría desbordada / Euforia",
       aceites: ["Vetiver", "Frankincense", "Copaiba"],
       descripcion: "Ayudan a centrar la energía y mantener equilibrio cuando hay exceso de estímulo emocional.",
       pasos: [
@@ -582,7 +582,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Desconfianza",
+      nombre: "Desconfianza",
       aceites: ["Juniper Berry", "Rosemary", "Lavender"],
       descripcion: "Abren espacio a la confianza en uno mismo y en los demás.",
       pasos: [
@@ -592,7 +592,7 @@ const datos = {
       ]
     },
     {
-      nombre: "<b>Amor bloqueado",
+      nombre: "Amor bloqueado",
       aceites: ["Geranium", "Rose", "Bergamot"],
       descripcion: "Cuando el corazón está cerrado, estos aceites invitan a la ternura y la apertura emocional.",
       pasos: [
