@@ -207,8 +207,7 @@ const datos = {
         "Usar Breathe en difusor por 30 min al despertar y antes de dormir."
       ]
     },
-    {
-      nombre: "Sistema inmune",
+    { nombre: "Sistema inmune",
       aceites: ["On Guard Blend", "Orégano + Frankincense + Lemon + Tea Tree (Melaleuca)"],
       descripcion: "Apoyo inmunológico para prevención o durante infecciones leves. Fortalece defensas naturales 💚.",
       pasos: [
@@ -217,8 +216,7 @@ const datos = {
         "En caso de síntomas: 💚 Aplicar mezcla diluida de Orégano + Tea Tree + Frankincense en columna."
       ]
     },
-    {
-      nombre: "Digestión / Náuseas",
+    { nombre: "Digestión / Náuseas",
       aceites: ["DigestZen Blend", "Ginger", "Fennel", "Peppermint", "Coriander"],
       descripcion: "💚 Alivio digestivo, náuseas, hinchazón y malestares estomacales🍋. Equilibra y calma.",
       pasos: [
@@ -227,8 +225,7 @@ const datos = {
         "Frotar Peppermint en nuca para refrescar y calmar náuseas."
       ]
     },
-    {
-      nombre: "Gripe / Resfriado común",
+    { nombre: "Gripe / Resfriado común",
       aceites: ["On Guard Blend", "Oregano", "Lemon", "Eucalyptus", "Frankincense"],
       descripcion: " 🌬️ Apoyo respiratorio y antiviral durante gripes, resfriados o congestión.",
       pasos: [
@@ -237,8 +234,7 @@ const datos = {
         "Inhalar Eucalyptus o Lemon desde las palmas para aliviar congestión nasal."
       ]
     },
-    {
-      nombre: "Corazón abierto / amor propio",
+    { nombre: "Corazón abierto / amor propio",
       aceites: ["Rose", "Geranium", "Jasmine", "Ylang Ylang"],
       descripcion: "💚 Apoyo emocional para fomentar el amor propio, aceptación y conexión interna.",
       pasos: [
@@ -247,8 +243,7 @@ const datos = {
         "Masajear con mezcla diluida en pecho y espalda alta por la mañana."
       ]
     },
-    {
-      nombre: "Energía / Vitalidad",
+    { nombre: "Energía / Vitalidad",
       aceites: ["Peppermint", "Wild Orange", "Citrus Bliss Blend", "Grapefruit"],
       descripcion: "💚 Revitalización física y mental. Aumenta motivación y estado de alerta 🌬️.",
       pasos: [
@@ -257,8 +252,7 @@ const datos = {
         "Usar Grapefruit en difusor por la mañana o al trabajar."
       ]
     },
-    {
-      nombre: "Limpieza / Purificación",
+    { nombre: "Limpieza / Purificación",
       aceites: ["Lemon", "Tea Tree", "Purify Blend", "Eucalyptus"],
       descripcion: "🌬️ Desintoxicación ambiental y energética. Limpieza del aire y espacios.",
       pasos: [
@@ -267,8 +261,7 @@ const datos = {
         "Usar Eucalyptus en difusor por 30 min en espacios cerrados."
       ]
     },
-    {
-      nombre: "Repelente de insectos",
+    { nombre: "Repelente de insectos",
       aceites: ["TerraShield Blend", "Lemongrass", "Cedarwood", "Patchouli"],
       descripcion: "💚 Protección natural contra insectos sin químicos tóxicos.",
       pasos: [
@@ -277,8 +270,7 @@ const datos = {
         "Colocar algunas gotas en difusor en terrazas o ventanas."
       ]
     },
-    {
-      nombre: "Cuidado de la piel",
+    { nombre: "Cuidado de la piel",
       aceites: ["Lavender", "Frankincense", "Tea Tree", "Helichrysum", "Rose"],
       descripcion: "💚 Regeneración, cicatrización y equilibrio de la piel. Ideal para rostro y zonas sensibles.",
       pasos: [
@@ -287,8 +279,7 @@ const datos = {
         "Usar Rose diluido como sérum nocturno en zonas del rostro."
       ]
     },
-    {
-      nombre: "Depresión leve / ánimo bajo",
+    { nombre: "Depresión leve / ánimo bajo",
       aceites: ["Citrus Bliss", "Wild Orange", "Bergamot", "Elevation Blend"],
       descripcion: "💚 Elevación emocional, claridad mental y apertura al gozo diario.",
       pasos: [
@@ -297,8 +288,7 @@ const datos = {
         "Realizar respiración profunda con Bergamot desde palmas abiertas."
       ]
     },
-    {
-      nombre: "Salud bucal",
+    { nombre: "Salud bucal",
       aceites: ["Clove", "On Guard", "Myrrh", "Peppermint"],
       descripcion: "Cuidado natural de encías, dientes y aliento. Antiséptico y fortalecedor 💚.",
       pasos: [
